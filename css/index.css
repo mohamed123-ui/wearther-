@@ -1,0 +1,147 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=PT+Sans+Caption:wght@400;700&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Pacifico&family=Righteous&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body{
+    font-family: "Roboto", serif;;
+}
+:root{
+    --bgcolor:#1E202B;
+    --secondecolor:#323544;
+  }
+  header{
+    background-color: var(--bgcolor);
+  }
+img{
+    width: 60px;
+    height: 60px;
+}
+h1{
+    font-size: 16px;
+    font-weight: bold;
+}
+h1+p{
+    font-size: 10px;
+}
+.nav-link{
+    color: #fff;
+    font-size: 14px;
+}
+.active{
+    color: #009AD8 !important;
+    border: 2px solid #009AD8;
+    padding: 5px 25px;
+    border-radius: 15px;
+}
+ a:hover{
+    color: #009AD8 !important;
+    border: 2px solid #009AD8;
+    padding: 5px 25px;
+    border-radius: 15px;
+}
+section{
+    background-image: url(../imges/banner.png);
+    background-size: cover;
+    width: 100%;
+    min-height: 350px;
+}
+.form-control{
+    color: #323544;
+}
+.landing-page{
+    z-index: -1;
+}
+input{
+    background-color: var(--bgcolor) !important;
+    padding: 10px;
+    color: #72616177;
+}
+.btn{
+    position: relative;
+    right: 8%;
+    border-radius: 20px;
+    padding: 10px 40px;
+}
+input:focus {
+    outline: none;
+}
+.weather-table{
+min-height: 400px;
+background-color: var(--bgcolor);
+overflow: hidden;
+}
+h3{
+    color: #BFC1BC;
+}
+.deg{
+    font-size: 80px;
+}
+
+.degree p{
+color: #fff;
+font-weight: bold;
+}
+.icon{
+    color: yellow;
+}
+.weather-custom p{
+    color: #009AD8;
+}
+.weather-custom span{
+    padding-right: 20px;
+    color: #BFC1BC;
+}
+.header-forecast{
+    background-color: var(--bgcolor);
+    color:#BFC1BC ;
+}
+.today-forecast{
+    background-color: #323544;
+}
+.forecast{
+    background-color: #262936;
+    height: 100%;
+}
+h5{
+    color: #BFC1BC;
+    padding-top: 5px;
+}
+.header-content{
+    background-color: var(--bgcolor);
+}
+.forecast-sec {
+    background-color: #323544;
+    height: 100%;
+}
+.col-md-4{
+    transition: .2s;
+}
+.col-md-4:hover{
+    scale: 1.1;
+}
+.footer-icons span{
+color: #009AD8;
+}
+.circle{
+    width: 50px;
+    height: 50px;
+    background-color: var(--bgcolor);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: .2s;
+}
+.circle:hover{
+    background-color: #009AD8;
+
+}
+.circle:hover span{
+    color: #ffff;
+}
+footer{
+    background-color: #262936;
+}
+.copyRight{
+    color: #BFC1BC;
+    
+}

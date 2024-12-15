@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather</title>
+    <link rel="stylesheet" href="webfonts">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+    <header>
+        <div class="container py-4">
+            <nav class="d-flex justify-content-between align-items-center">
+                <div class="logo d-flex ps-1">
+                    <img src="imges/logo@2x.png" alt="logo">
+    <div class="captionLogo ps-2 pt-2 text-white ">
+        <h1>Weather</h1>
+                        <p>tagline goes here</p>
+    </div>
+                </div>
+                <nav class="navbar navbar-expand-lg ">
+                    <div class="container-fluid">
+                        <a class="navbar-brand" href="#"></a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                      </button>
+                      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link me-3 active " aria-current="page" href="#Home">Home</a>
+                              </li>
+                          <li class="nav-item">
+                            <a class="nav-link me-3 " aria-current="page" href="#News">News</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link me-3 " aria-current="page" href="#LiveCamera">Live Camera</a>
+                          </li>
+                          
+                          <li class="nav-item">
+                            <a class="nav-link  me-3" aria-current="page" href="#Photo">Photo</a>
+                          </li>
+                          
+                          <li class="nav-item">
+                            <a class="nav-link me-3" href="#Contact">Contact</a>
+                          </li>
+                         
+                      </div>
+                    </div>
+                  </nav>
+            </nav>
+        </div>
+    </header>
+    <section>
+<div class="container">
+    <div class="landing-page">
+        <div class="find-location py-4 w-100 d-flex">
+            <input type="search" class="w-100 rounded-5  p-3" id="searchInput" placeholder="Find Your Location ">
+<button id="findBtn" class="btn btn-info">Find</button>
+        </div>
+    </div>
+</div>
+    </section>
+
+    <main class="weather-table">
+        <div class="container position-relative">
+            <div class="content-weather">
+                <div class="row mt-2" id="rowData">
+                    <!--
+                    <div class="col-md-4">
+                        <div class="today-forecast">
+                            <div class="header-forecast d-flex justify-content-between ">
+                                <div class="day"><h5>sunday</h5>
+                                </div>
+                                <div class="date"><h5>15December</h5>
+                                </div>
+                            </div>
+    <div class="today-forecast-content ps-2">
+    <div class="location">
+        <h3>cairo</h3>
+    </div>
+    <div class="degree">
+        <p class="deg">21 <sup>o</sup>c</p>
+    </div>
+    <div class="icon">
+        <i class="fa-regular fa-sun"></i>
+    </div>
+    <div class="weather-custom">
+        <p>sunny</p>
+        <span><i class="fa-solid fa-umbrella"></i> 20%</span>
+        <span><i class="fa-solid fa-wind"></i>18 km/h</span>
+        <span><i class="fa-solid fa-gauge"></i>East</span>
+    </div>
+    </div>
+                            </div>
+                        </div>
+                    <div class="col-md-4">
+    <div class="forecast text-center">
+    <div class="header-content">
+        <h5 class="text-center py-1 ">monday</h5>
+    </div>
+    <div class="icon py-2">
+        <i class="fa-regular fa-sun"></i>
+    </div>
+    
+    <div class="degree">
+
+        <p class="fw-bold fs-2">21 <sup>o</sup>c</p>
+        <p>21 <sup>o</sup></p>
+
+    </div>
+    <div class="weather-custom">
+        <p>sunny</p>
+    </div>
+    </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="forecast-sec text-center">
+                        <div class="header-content">
+                            <h5 class="">tuesday</h5>
+                        </div>
+                        <div class="icon py-2" >
+                            <i class="fa-regular fa-sun"></i>
+                        </div>
+                        
+                        <div class="degree">
+                        <p class="fw-bold fs-2">21 <sup>o</sup>c</p>
+        <p>21 <sup>o</sup></p>
+
+                        </div>
+                        <div class="weather-custom">
+                            <p>sunny</p>
+                        </div>
+                        </div>
+                     </div>
+                    -->
+                </div>
+                </div>
+            </div>
+    </main>
+    <footer>
+        <div class="container">
+            <div class="row py-3">
+                <div class="text col-md-6 d-flex">
+                    <input type="email" name="email" id="emai" class="w-100 rounded-5"  placeholder="enter you email">
+                    <button class="btn btn-info rounded-5 ">subscribe</button>
+                </div>
+                <div class="footer-icons col-md-6 d-flex justify-content-center  ">
+                    <div class="circle">
+                    <span class=" fs-3"><i class="fa-brands fa-facebook"></i></span>
+                    </div>
+                    <div class="circle">
+                        <span class="fs-3"><i class="fa-brands fa-twitter"></i></span>
+                    </div>
+                        <div class="circle">
+                            <span class=" fs-3"><i class="fa-brands fa-google"></i></span>
+                        </div>
+                            <div class="circle">
+                                <span class="fs-3"><i class="fa-brands fa-pinterest"></i></span>
+                            </div>
+
+                </div>
+                <div class="copyRight pt-4 pb-5 col-md-6">
+                    <p>Copyright 2014 Company name. Designed by Themezy. All rights reserved</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/index.js"></script>
+
+</body>
+</html>
